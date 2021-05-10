@@ -4,7 +4,7 @@ url = "https://corona-virus-world-and-india-data.p.rapidapi.com/api_india"
 
 headers = {
     'x-rapidapi-host': "corona-virus-world-and-india-data.p.rapidapi.com",
-    'x-rapidapi-key': "8be17f8f26msh8b57a1ee60ca0d7p1b4ac3jsn83862cf52dd2"
+    'x-rapidapi-key': "###############################################"
     }
 
 response = requests.request("GET", url, headers=headers).json()
